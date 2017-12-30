@@ -1,4 +1,4 @@
-FROM vrgfa/php-x2go
+FROM vrgfa/docker-php-x2go
 MAINTAINER Ferenc Varga
 
 RUN (apt-get update && apt-get -y install tar curl gzip)
